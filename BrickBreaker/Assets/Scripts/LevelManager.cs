@@ -12,4 +12,15 @@ public class LevelManager : MonoBehaviour {
 		Debug.Log("Quit requested");
 		Application.Quit();
 	}
+	
+	public void LoadNextLevel() {
+		Application.LoadLevel(Application.loadedLevel + 1);
+		Brick.BricksInLevel = 0; 
+	}
+	
+	public void BrickDestroyed() {
+		if (Brick.BricksInLevel <= 0) {
+			LoadNextLevel();
+		}
+	}
 }

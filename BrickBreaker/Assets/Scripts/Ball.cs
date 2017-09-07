@@ -23,7 +23,15 @@ public class Ball : MonoBehaviour {
 				print("Clicked");
 				this.rigidbody2D.velocity = new Vector2 (4f, 10f);
 				hasStarted = true;
+				print(rigidbody2D.velocity);
 			}
 		}
+	}
+	void OnCollisionEnter2D (Collision2D collision) {
+		Vector2 hitRandom = new Vector2 (Random.Range(0f,1f), (Random.Range(0f,1f)));
+		if (hasStarted && collision.gameObject.tag != "Breakable") {
+			audio.Play ();
+		}
+		rigidbody2D.velocity += hitRandom; 
 	}
 }

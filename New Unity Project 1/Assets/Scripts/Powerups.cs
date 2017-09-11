@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Powerups : MonoBehaviour {
 
-	public static void SpawnPowerup (string PUtype){
+	public static void SpawnPowerup (string PUtype, Ball ball){
 			if (PUtype.Contains("BigBall")) {
-				Ball.Instance.UpdateHitPower(10);
+			ball.UpdateHitPower(10);
 			}
 		}
 }

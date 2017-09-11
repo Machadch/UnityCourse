@@ -42,7 +42,7 @@ public class Brick : MonoBehaviour {
 		this.timesHit += ball.hitPower;
 		if (timesHit >= maxHits) {
 			if(this.isPowerup){
-				Powerups.SpawnPowerup(powerupValue);
+				Powerups.SpawnPowerup(powerupValue, ball);
 			}
 			Destroy(gameObject);
 			BricksInLevel -= 1;

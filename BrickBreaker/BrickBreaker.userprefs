@@ -1,12 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="C:\Users\chris\Documents\New Unity Project 1\Assets\Scripts\Powerups.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Brick.cs">
     <Files>
-      <File FileName="C:\Users\chris\Documents\New Unity Project 1\Assets\Scripts\Ball.cs" Line="43" Column="51" />
-      <File FileName="C:\Users\chris\Documents\New Unity Project 1\Assets\Scripts\Brick.cs" Line="63" Column="32" />
-      <File FileName="C:\Users\chris\Documents\New Unity Project 1\Assets\Scripts\Powerups.cs" Line="7" Column="29" />
-      <File FileName="C:\Users\chris\Documents\New Unity Project 1\Assets\Scripts\LevelManager.cs" Line="1" Column="1" />
-      <File FileName="e:\git\UnityCourse\BrickBreaker\Assets\Scripts\Ball.cs" Line="1" Column="7" />
+      <File FileName="Assets/Scripts/Brick.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

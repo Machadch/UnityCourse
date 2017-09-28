@@ -49,5 +49,6 @@
 'Assets/Scripts/LoseCollider.cs'
 'Assets/Scripts/MusicPlayer.cs'
 'Assets/Scripts/Paddle.cs'
+'Assets/Scripts/Powerups.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

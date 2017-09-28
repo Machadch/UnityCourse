@@ -7,5 +7,8 @@ public class Powerups : MonoBehaviour {
 			if (PUtype.Contains("BigBall")) {
 			ball.UpdateHitPower(10);
 			}
+		else if (PUtype.Contains("FireBall")) {
+			ball.spawnFireball(ball);
 		}
+	}
 }
